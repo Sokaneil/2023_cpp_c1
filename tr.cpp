@@ -1,15 +1,15 @@
+#include <algorithm>
 #include <iostream>
 #include <string>
-#include <algorithm>
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
     if (argc != 3) {
         std::cerr << "Error: " << argv[0] << "\n";
         return (1);
     }
     std::string written = argv[1];
-    std::string result = argv[2];
+    std::string result  = argv[2];
     std::string line;
     while (std::getline(std::cin, line)) {
         std::string translated;
