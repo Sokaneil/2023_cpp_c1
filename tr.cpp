@@ -5,7 +5,7 @@
 int main(int argc, char *argv[])
 {
     if (argc != 3) {
-        std::cerr << "Error: " << argv[0] << "\n";
+        std::cerr << "Error: " << argv[0] << std::endl;
         return (1);
     }
     std::string written = argv[1];

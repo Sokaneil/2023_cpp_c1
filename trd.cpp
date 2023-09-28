@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
 {
     if (argc != 2) {
         std::cerr << "Error: " << argv[0] << "<you_have_to_delete>"
-                  << "\n";
+                  << std::endl;
         return (1);
     }
     std::string DeletedChars(argv[1]);
@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
                 std::cout << *iter;
             }
         }
-        std::cout << "\n";
+        std::cout << std::endl;
     }
     return (0);
 }
