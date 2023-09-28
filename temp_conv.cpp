@@ -18,7 +18,6 @@ void temp_read_convert(std::istream &input, std::ostream &output)
         }
         float kal  = cel + 273.15;
         float fahr = (cel * 9.0 / 5.0) + 32;
-
         output << cel << " C" << std::endl;
         output << fahr << " F" << std::endl;
         output << kal << " K" << std::endl;
